@@ -1,5 +1,5 @@
 ## 프론트엔드 배포 파이프라인
-![프론트엔드 배포 파이브라인 이미지](./images/frontend-deployment-pipeline.png)
+![프론트엔드 배포 파이브라인 이미지](./public/images/frontend-deployment-pipeline.png)
 
 진행 순서 
   1. 저장소를 체크아웃 한다.
