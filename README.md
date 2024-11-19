@@ -19,3 +19,9 @@
 - CloudFront와 CDN : AWS의 콘텐츠 전송 네트워크(CDN) 서비스로, 전세계 엣지 로케이션을 통해 콘텐츠를 빠르게 전달
 - 캐시 무효화(Cache Invalidation) : CloudFront의 캐시된 콘텐츠를 강제로 업데이트하여 최신 버전을 제공하는 프로세스
 - Repository secret과 환경변수 :GitHub에서 제공하는 보안 값 저장 기능으로, AWS 접근키 등 민감한 정보를 안전하게 관리
+
+## CDN과 성능최적화 
+| S3 | CloudFront |
+|:-----:|:-----:|
+|<img src="./public/images/S3.png" width="500" align="center"/> | <img src="./public/images/CloudFront.png" width="500" align="center"/> |
+| - 기본적인 정적 호스팅 서비스<br>- 별도의 최적화 없음<br>- 직접 S3 버킷에 접근 | - 전세계 Edge Location 활용<br>- 브라우저 압축(br) 지원<br>- 캐싱으로 빠른 응답<br>- CDN 최적화 제공 |
